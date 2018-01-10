@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>七姑娘手记</title>
-    <description>简单的事情坚持久了，其实卓有成效（七姑娘手记）</description>
+    <description>简单的事情坚持久了，其实卓有成效</description>
     <link>http://localhost:4000/Blogs/</link>
     <atom:link href="http://localhost:4000/Blogs/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Jan 2018 23:16:39 +0800</pubDate>
-    <lastBuildDate>Wed, 10 Jan 2018 23:16:39 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2018 00:07:51 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:07:51 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>

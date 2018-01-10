@@ -1,20 +1,20 @@
 # Site settings
-title: "七姑娘手记" # 你的博客名字，可以定义修订
+title: 七姑娘手记 # 你的博客名字，可以定义修订
 header-img: "img/black-house.jpg"
-tagline: "cn"  
-description: "简单的事情坚持久了，其实卓有成效（七姑娘手记）"  # 一句话描述你的博客
+tagline: "cn"
+description: "简单的事情坚持久了，其实卓有成效"  # 一句话描述你的博客
 baseurl: "/Blogs"
 url: "http://julyshi.githup.io/Blogs"  # 此处填写你的博客地址
 
 # About/contact
-owner: 
+owner:
   name: "七姑娘" # 填写作者信息：名字
   email: julyfly321520@163.com # 填写作者信息：邮箱
   bio: "简单的事情坚持久了，其实卓有成效" # 填写作者信息：博客描述
 
 # Data
-gavatar: {{ site.baseurl }}/img/favicon.ico # 浏览器地址栏小图标，可自定义更改
-favicon: {{ site.baseurl }}/img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
+favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 Wechat_Subscription_username: 七姑娘手记
 #twitter_username:
@@ -23,9 +23,9 @@ github_username: JulyShi
 #weibo_username:
 #zhihu_username:
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -38,7 +38,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
@@ -46,7 +46,7 @@ defaults:
       author: "七姑娘" # 你的名字
       header-img: "img/black-house.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
+# Comments
 comments :
   provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
   duoshuo :
