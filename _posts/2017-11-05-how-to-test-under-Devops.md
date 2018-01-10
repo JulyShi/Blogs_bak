@@ -18,16 +18,16 @@ DevOps是一系列软件开发实践，强调开发人员（Dev）和运维人�
 #### 1. DevOps强调一种文化
 在很多企业中，开发和运维人员通常隶属于不同部门，有着不同的工作环境，采用不同的沟通方式，使用不同的开发或运维工具，并且有着不同的业务目标，这使得他们之间形成一道参不透的墙。
 
-![](http://JulyShi.com/image-001.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-001.png)
 
 DevOps实际是一种文化上的变迁，强调开发、运维、测试等环节之间的沟通合作。意在帮助这些人向着一个共同的目标努力：尽可能为公司提供更多价值。为了支持这种合作的发生，需要在团队内部文化和企业组织文化两个层面做出努力。
-![](http://JulyShi.com/image-002.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-002.png)
 
 #### 2. DevOps是一种实践
 所谓DevOps，就是将敏捷方法延伸到Production!
 
 DevOps主要是为了将敏捷开发实践扩展到运维阶段，进一步完善软件构建、验证、部署、交付等流程，使得跨职能团队能够完成从设计到生产支持等各环节的工作。
-![](http://JulyShi.com/image-003.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-003.png)
 
 #### 3. DevOps包含一系列工具链
 DevOps是一种融合了一系列基本原则和实践的方法论，并从这些实践中派生出了各种**工具**。这些工具体现在软件开发和交付过程的不同阶段：
@@ -49,7 +49,7 @@ DevOps是一种融合了一系列基本原则和实践的方法论，并从这�
 现在，我们采用DevOps的优秀实践，开发和运维协同工作。每个迭代完成，或者每修复一个线上缺陷就立即部署到生产环境。这样，我们就能够迅速从用户处获得反馈并且快速做出响应。
 
 通过参与传统、敏捷和DevOps的项目，我深深地感受到流程的改进对团队以及项目的产出和质量所带来的改变。
-![](http://JulyShi.com/image-004.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-004.png)
 
 那么，这些改变究竟是对测试提出了什么样的挑战? 我认为有以下几点:
 
@@ -68,7 +68,7 @@ DevOps强调将流程自动化，测试作为其中一个重要环节，势必�
 ## 我们是如何做测试的
 
 Laurent曾经在Hiptest上发表了博客[《Shift left and shift right: the testing Swing》](https://blog.hiptest.net/2015/06/26/shift-left-and-shift-right-the-testing-swing/)，提出了一个有意思的测试矩阵，从四个维度进行分析，描述了当软件开发模式从瀑布到敏捷、再到DevOps转型时，测试该如何响应变化。
-![](http://JulyShi.com/image-005.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-005.png)
 
 Laurent提出一个测试左移和右移的概念:
 所谓**<font color=#3194d0>测试向移</font>**，就是指在**开发阶段之前定义测试**。
@@ -98,7 +98,7 @@ Laurent提出一个测试左移和右移的概念:
 将**BDD需求直接转化为自动化测试用例**。每个测试用例都应该讲一个关于应用程序的故事。当一个测试用例使用一致的业务术语定义时，它的可读性会比较高，且容易自动化。与此同时，上一个迭代的用例在下一个迭代就可以迅速转化为回归测试的基线。
 
 支持BDD的工具有很多，比如：Cucumber。简单举个例子，如图：
-![](http://JulyShi.com/image-006.jpg)
+![](https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-006.png)
 
 BA用BDD方式定义用户需求，QA Review并补充AC，然后将其编写为自动化测试脚本。如果QA的编码能力较弱，可以让Dev协助完成代码实现的部分。这也充分说明了协作的意义。
 
