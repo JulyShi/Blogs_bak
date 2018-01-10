@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="简单的事情坚持久了，其实卓有成效">
-
+    <meta name="description" content="简单的事情坚持久了，其实卓有成效（七姑娘手记）">
+    <meta name="keywords" content="七姑娘手记">
     <title>项目实施DevOps时，我们是如何做测试的 - 七姑娘手记</title>
 
     <link rel="canonical" href="http://localhost:4000/Blogs/blog/2017/11/05/how-to-test-under-Devops/">
@@ -136,16 +136,16 @@
 <h4 id="1-devops强调一种文化">1. DevOps强调一种文化</h4>
 <p>在很多企业中，开发和运维人员通常隶属于不同部门，有着不同的工作环境，采用不同的沟通方式，使用不同的开发或运维工具，并且有着不同的业务目标，这使得他们之间形成一道参不透的墙。</p>
 
-<p><img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-001.png" alt="" /></p>
+<p><img src="/Blogs/img/testing-on-devops/image-001.png" alt="" /></p>
 
 <p>DevOps实际是一种文化上的变迁，强调开发、运维、测试等环节之间的沟通合作。意在帮助这些人向着一个共同的目标努力：尽可能为公司提供更多价值。为了支持这种合作的发生，需要在团队内部文化和企业组织文化两个层面做出努力。
-<img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-002.png" alt="" /></p>
+<img src="/Blogs/img/testing-on-devops/image-002.png" alt="" /></p>
 
 <h4 id="2-devops是一种实践">2. DevOps是一种实践</h4>
 <p>所谓DevOps，就是将敏捷方法延伸到Production!</p>
 
 <p>DevOps主要是为了将敏捷开发实践扩展到运维阶段，进一步完善软件构建、验证、部署、交付等流程，使得跨职能团队能够完成从设计到生产支持等各环节的工作。
-<img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-003.png" alt="" /></p>
+<img src="/Blogs/img/testing-on-devops/image-003.png" alt="" /></p>
 
 <h4 id="3-devops包含一系列工具链">3. DevOps包含一系列工具链</h4>
 <p>DevOps是一种融合了一系列基本原则和实践的方法论，并从这些实践中派生出了各种<strong>工具</strong>。这些工具体现在软件开发和交付过程的不同阶段：
@@ -166,7 +166,7 @@
 <p>现在，我们采用DevOps的优秀实践，开发和运维协同工作。每个迭代完成，或者每修复一个线上缺陷就立即部署到生产环境。这样，我们就能够迅速从用户处获得反馈并且快速做出响应。</p>
 
 <p>通过参与传统、敏捷和DevOps的项目，我深深地感受到流程的改进对团队以及项目的产出和质量所带来的改变。
-<img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-004.png" alt="" /></p>
+<img src="/Blogs/img/testing-on-devops/image-004.png" alt="" /></p>
 
 <p>那么，这些改变究竟是对测试提出了什么样的挑战? 我认为有以下几点:</p>
 
@@ -185,11 +185,11 @@ DevOps强调将流程自动化，测试作为其中一个重要环节，势必�
 <h2 id="我们是如何做测试的">我们是如何做测试的</h2>
 
 <p>Laurent曾经在Hiptest上发表了博客<a href="https://blog.hiptest.net/2015/06/26/shift-left-and-shift-right-the-testing-swing/">《Shift left and shift right: the testing Swing》</a>，提出了一个有意思的测试矩阵，从四个维度进行分析，描述了当软件开发模式从瀑布到敏捷、再到DevOps转型时，测试该如何响应变化。
-<img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-005.png" alt="" /></p>
+<img src="../img/testing-on-devops/image-005.png" alt="" /></p>
 
 <p>Laurent提出一个测试左移和右移的概念:
-所谓<strong>&lt;font color=#3194d0&gt;测试向移&lt;/font&gt;</strong>，就是指在<strong>开发阶段之前定义测试</strong>。
-所谓<strong>&lt;font color=#3194d0&gt;测试右移&lt;/font&gt;</strong>：就是<strong>直接在生产环境中监控</strong>，并且<strong>实时获取用户反馈</strong>。</p>
+所谓<strong>测试向移</strong>，就是指在<strong>开发阶段之前定义测试</strong>。
+所谓<strong>测试右移</strong>：就是<strong>直接在生产环境中监控</strong>，并且<strong>实时获取用户反馈</strong>。</p>
 
 <p>在敏捷开发的生命周期中，我们通过每一次迭代来丰富和更新产品，以使其最大限度地符合客户对系统的需求。当时测试的关注点基本停留在开发阶段，以保证产品达到上线标准。引入DevOps之后，我们不仅要关注产品的质量是否达标，还需要使价值假设得到及时的验证。因此，我们不仅要将测试左移，在开发环境验证功能的可用性，还要进行测试右移，通过监控产品在生产环境的运作情况，来验证其价值并获得反馈，从而持续改进。基于这些理解，我在项目上做了初步的尝试并取得良好的效果。我将这些尝试和实践总结为以下几点：</p>
 
@@ -215,7 +215,7 @@ DevOps强调将流程自动化，测试作为其中一个重要环节，势必�
 <p>将<strong>BDD需求直接转化为自动化测试用例</strong>。每个测试用例都应该讲一个关于应用程序的故事。当一个测试用例使用一致的业务术语定义时，它的可读性会比较高，且容易自动化。与此同时，上一个迭代的用例在下一个迭代就可以迅速转化为回归测试的基线。</p>
 
 <p>支持BDD的工具有很多，比如：Cucumber。简单举个例子，如图：
-<img src="https://github.com/JulyShi/July.Blog/blob/master/img/testing-on-devops/image-006.png" alt="" /></p>
+<img src="/Blogs/img/testing-on-devops/image-006.png" alt="" /></p>
 
 <p>BA用BDD方式定义用户需求，QA Review并补充AC，然后将其编写为自动化测试脚本。如果QA的编码能力较弱，可以让Dev协助完成代码实现的部分。这也充分说明了协作的意义。</p>
 
