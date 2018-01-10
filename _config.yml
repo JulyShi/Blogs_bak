@@ -3,8 +3,8 @@ title: 七姑娘手记 # 你的博客名字，可以定义修订
 header-img: "img/black-house.jpg"
 tagline: "cn"  
 description: "简单的事情坚持久了，其实卓有成效"  # 一句话描述你的博客
-baseurl: ""
-url: "http://july"  # 此处填写你的博客地址
+baseurl: "/Blogs"
+url: "http://julyshi.githup.io/Blogs"  # 此处填写你的博客地址
 
 # About/contact
 owner: 
