@@ -1,13 +1,39 @@
 ---
 layout: page
-title: "Milestone"
-description: "代表作"
-header-img: "img/twitter.jpg"
+title: "Insight"
+description: "哇哦，你挖到了宝藏。 这里的文章全部转载于TW洞见"
+header-img: "img/image2.jpg"
 ---
 
-这里是我的里程碑
+### 测试相关文章
+* [移动应用的测试策略与测试架构](http://insights.thoughtworks.cn/test-strategy-and-test-architecture/)
+* [测试矩阵](http://insights.thoughtworks.cn/test-matrix/)
+* [自动化测试框架分类与思考](http://insights.thoughtworks.cn/automated-testing-framework/)
+* [别再加端到端集成测试了，快换契约测试吧](http://insights.thoughtworks.cn/contract-test/)
+* [物联网测试地图](http://insights.thoughtworks.cn/iot-testing-atlas/)
+* [系统级集成测试的断舍离](http://insights.thoughtworks.cn/trade-off-in-system-integration-testing/)
+* [无障碍性测试工具 Pa11y](http://insights.thoughtworks.cn/accessibility-testing-tools-pa11y/)
+* [复杂业务场景下如何进行iOS端自动化测试](http://insights.thoughtworks.cn/how-to-deal-with-the-automated-testing-of-ios-end-under-the-complex-business-scenarios/)
+* [使用Enzyme测试React（Native）组件](http://insights.thoughtworks.cn/use-enzyme-to-test-the-react-component/)
+* [从测试策略到测试架构](http://insights.thoughtworks.cn/from-strategy-to-architecture/)
+* [致测试同仁们：让我们一起做安全测试吧！](http://insights.thoughtworks.cn/let-us-do-security-testing/)
+* [测试自动化后，我们需要怎样的QA？](http://insights.thoughtworks.cn/qa-for-test-automation/)
+* [我在测试移动弱网时踩过的坑](http://insights.thoughtworks.cn/mobile-testing-traps/)
+* [改善单元测试的新方法](http://insights.thoughtworks.cn/improve-the-effectiveness-of-unit-testing/)
+* [一个遗留系统自动化测试的七年之痒](http://insights.thoughtworks.cn/automated-testing-seven-years/)
+* [移动 app 云测试平台的对比与分析](http://insights.thoughtworks.cn/mobile-app-cloud-testing-analysis/)
+* [敏捷软件测试常见的七个误区](http://insights.thoughtworks.cn/agile-testing-misunderstanding/)
+* [软件测试新趋势](http://insights.thoughtworks.cn/software-testing-trend/)
+* [软件测试反模式——杯型蛋糕](http://insights.thoughtworks.cn/introducing-software-testing-cupcake-anti-pattern/)
+* [移动App测试的22条军规之“确定设备和平台再动手”](http://insights.thoughtworks.cn/mobile-app-testing-rules-1/)
+* [快速搭建IE测试环境（Virtualbox+ievms）](http://insights.thoughtworks.cn/setup-ie-series-testing-environment/)
+* [敏捷测试之借力DSL](http://insights.thoughtworks.cn/leveraging-dsl-in-agile-test/)
 
-
+### 文集下载：
+* [测试文集PDF下载](http://insights.thoughtworks.cn/cover-pdf-download/)
+* [微服务文集PDF下载](http://insights.thoughtworks.cn/microservices-pdf-download/)
+* [ThoughtWorks商业洞见全文PDF下载](http://insights.thoughtworks.cn/business-insights-download/)
+* [ThoughtWorks电子文集](http://insights.thoughtworks.cn/socialmedia/books/)
 
 
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Archive"
-description: "故事是如何发生的"
-header-img: "img/orange.jpg"
+description: "故事是这样发生的"
+header-img: "img/image8.jpg"
 ---
 
 

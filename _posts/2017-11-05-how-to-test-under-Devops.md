@@ -6,6 +6,7 @@ categories: blog
 tags: [Devops,测试]
 description: 正如我们所知，DevOps最近几年很风靡，很多企业正在如火如荼的推行它。然而，你可曾想过，从传统到敏捷、再到DevOps，开发模式的不断革新对测试提出了怎样的挑战？
 ---
+#### *本文发表于[TW洞见](http://insights.thoughtworks.cn/qa-in-devops/)*
 
 正如我们所知，DevOps最近几年很风靡，很多企业正在如火如荼的推行它。然而，你可曾想过，从传统到敏捷、再到DevOps，开发模式的不断革新对测试提出了怎样的挑战？
 

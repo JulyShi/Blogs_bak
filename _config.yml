@@ -1,6 +1,6 @@
 # Site settings
-title: 七姑娘手记 # 你的博客名字，可以定义修订
-header-img: "img/black-house.jpg"
+title: 七姑娘 # 你的博客名字，可以定义修订
+header-img: "img/Home.jpg"
 tagline: "cn"
 description: "简单的事情坚持久了，其实卓有成效"  # 一句话描述你的博客
 baseurl: "/Blogs"
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "七姑娘" # 你的名字
-      header-img: "img/black-house.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/bike.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments
 comments :

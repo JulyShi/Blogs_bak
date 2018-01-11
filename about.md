@@ -2,10 +2,10 @@
 layout: page
 title: "About Me"
 description: "我是谁" 
-header-img: "img/green.jpg"
+header-img: "img/dance.jpg"
 ---
 
-July，人称七姑娘。
+我是谁？江湖人称"七姑娘"。
 
 致力于敏捷软件开发的质量保证工作，有丰富的企业级Web和移动应用测试经验。
 
