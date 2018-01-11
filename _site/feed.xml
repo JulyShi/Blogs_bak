@@ -5,8 +5,8 @@
     <description>简单的事情坚持久了，其实卓有成效</description>
     <link>http://localhost:4000/Blogs/</link>
     <atom:link href="http://localhost:4000/Blogs/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Jan 2018 00:07:51 +0800</pubDate>
-    <lastBuildDate>Thu, 11 Jan 2018 00:07:51 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2018 10:54:56 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2018 10:54:56 +0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -70,7 +70,7 @@ DevOps强调将流程自动化，测试作为其中一个重要环节，势必�
 &lt;h2 id=&quot;我们是如何做测试的&quot;&gt;我们是如何做测试的&lt;/h2&gt;
 
 &lt;p&gt;Laurent曾经在Hiptest上发表了博客&lt;a href=&quot;https://blog.hiptest.net/2015/06/26/shift-left-and-shift-right-the-testing-swing/&quot;&gt;《Shift left and shift right: the testing Swing》&lt;/a&gt;，提出了一个有意思的测试矩阵，从四个维度进行分析，描述了当软件开发模式从瀑布到敏捷、再到DevOps转型时，测试该如何响应变化。
-&lt;img src=&quot;../img/testing-on-devops/image-005.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Blogs/img/testing-on-devops/image-005.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Laurent提出一个测试左移和右移的概念:
 所谓&lt;strong&gt;测试向移&lt;/strong&gt;，就是指在&lt;strong&gt;开发阶段之前定义测试&lt;/strong&gt;。
